@@ -11,6 +11,8 @@ module Endicia
                   :pic,
                   :error_message,
                   :reference_id,
+                  :reference_id2,
+                  :requester_id,
                   :cost_center,
                   :request_body,
                   :request_url,
