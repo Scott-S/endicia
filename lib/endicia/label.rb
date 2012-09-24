@@ -12,6 +12,8 @@ module Endicia
                   :error_message,
                   :reference_id,
                   :reference_id2,
+                  :reference_id3,
+                  :reference_id4,
                   :requester_id,
                   :cost_center,
                   :request_body,
