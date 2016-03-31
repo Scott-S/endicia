@@ -66,7 +66,8 @@ module Endicia
   def self.get_label(opts={})
     opts = defaults.merge(opts)
     opts[:Test] ||= "NO"
-    url = "http://elstestserver.endicia.com/LabelService/EwsLabelService.asmx/GetPostageLabelXML"
+    url = "https://LabelServer.Endicia.com/LabelService/EwsLabelService.asmx/GetPostageLabelXML"
+    # url = "http://elstestserver.endicia.com/LabelService/EwsLabelService.asmx/GetPostageLabelXML"
     # url = "#{label_service_url(opts)}/GetPostageLabelXML"
     insurance = extract_insurance(opts)
     handle_extended_zip_code(opts)
